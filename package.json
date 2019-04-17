@@ -1,0 +1,23 @@
+{
+  "name": "unit-testing",
+  "version": "1.0.0",
+  "description": "Introduction to unit testing with mocha and Chai",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --timeout 10000 --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ignitecode/unit-testing.git"
+  },
+  "author": "cbartram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ignitecode/unit-testing/issues"
+  },
+  "homepage": "https://github.com/ignitecode/unit-testing#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.3"
+  }
+}
